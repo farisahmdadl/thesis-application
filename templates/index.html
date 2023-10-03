@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	<title>Net Zero Predictor App</title>
+</head>
+
+<body>
+	<div class="main-div">
+		<div class="main-container">
+			<div class="second-container">
+				<form id="form_utama" method="POST">
+					<h2>Forecast Your Emissions Here!</h2>
+					<div class="sub-second-container">
+						<lable>Year: </lable>
+						<select id="year_id1" name="year_1">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+						</select>
+						<input class="box_input_emissions" name="emissions_1" placeholder="Input Emissions Value Here"></input>
+					</div>
+					<div class="sub-second-container">
+						<lable>Year: </lable>
+						<select id="year_id2" name="year_2">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+						</select>
+						<input class="box_input_emissions" name="emissions_2" placeholder="Input Emissions Value Here"></input>
+					</div>
+					<div class="sub-second-container">
+						<lable>Year: </lable>
+						<select id="year_id3" name="year_3">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+						</select>
+						<input class="box_input_emissions" name="emissions_3" placeholder="Input Emissions Value Here"></input>
+					</div>
+					<div class="sub-second-container">
+						<lable>Year: </lable>
+						<select id="year_id4" name="year_4">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+						</select>
+						<input class="box_input_emissions" name="emissions_4" placeholder="Input Emissions Value Here"></input>
+					</div>
+					<div class="sub-second-container">
+						<lable>Year: </lable>
+						<select id="year_id5" name="year_5">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+						</select>
+						<input class="box_input_emissions" name="emissions_5" placeholder="Input Emissions Value Here"></input>
+					</div>
+				<input class="button-submit" type="submit">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

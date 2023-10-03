@@ -1,0 +1,25 @@
+body {
+    background-image: url("images/beautiful-grassy-field-with-windmills-distance-blue-sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+}
+
+.main-container{
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .sub-container {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 900px;
+    height: 600px;
+}
