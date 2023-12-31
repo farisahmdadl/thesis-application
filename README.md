@@ -1,4 +1,4 @@
 # thesis-application
-This is my thesis app code.
+Tech used:
 
-This app is a web based app and used to predict company's emissions using Linear Regression.
+[![My Skills](https://skillicons.dev/icons?i=html,css,py,flask)](https://skillicons.dev)
